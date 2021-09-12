@@ -1,0 +1,141 @@
+#principal{
+    background-color: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    transition: .8s;
+}
+
+#principal:hover{
+    background: linear-gradient(90deg, rgba(100,249,255,1) 0%, rgba(255,209,19,1) 51%, rgba(222,0,255,1) 100%);
+    border-radius: 0% 100% 40% 60% / 0% 57% 43% 100% ;
+}
+
+#principal .cuerpo{
+    padding-top: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+#principal .cuerpo:hover .gorro{
+    transform: translateY(10px);
+}
+
+#principal .cuerpo:hover .oreja-izq{
+    transform: translateX(-10px);
+}
+
+#principal .cuerpo:hover .oreja-der{
+    transform: translateX(10px);
+}
+
+#principal .cuerpo:hover .ojo-izq{
+    transform: scale(95%);
+}
+
+#principal .cuerpo:hover .ojo-der{
+    transform: scale(95%);
+}
+
+#principal .cuerpo:hover .nariz{
+    transform: scale(95%);
+}
+
+#principal .cuerpo:hover .bigote{
+    transform: rotate(-10deg);
+}
+
+#principal .cuerpo:hover .zapato-izq{
+    transform: rotate(-10deg);
+}
+
+#principal .cuerpo:hover .zapato-der{
+    transform: rotate(10deg);
+}
+
+#principal .cuerpo .gorro{
+    position: absolute;
+    top: 90px;
+    left: 230px;
+    transition: .4s;
+}
+
+#principal .cuerpo .oreja-izq{
+    position: absolute;
+    top: 215px;
+    left: 163px;
+    z-index: -2;
+    transition: .4s;
+}
+
+#principal .cuerpo .oreja-der{
+    position: absolute;
+    top: 215px;
+    right: 163px;
+    z-index: -2;
+    transition: .4s;
+}
+
+#principal .cuerpo .ojo-izq{
+    position: absolute;
+    top: 245px;
+    left: 265px;
+    z-index: 2;
+    transition: .4s;
+}
+
+#principal .cuerpo .ojo-der{
+    position: absolute;
+    top: 245px;
+    right: 265px;
+    z-index: 2;
+    transition: .4s;
+}
+
+#principal .cuerpo .nariz{
+    position: absolute;
+    top: 305px;
+    right: 280px;
+    z-index: 2;
+    transition: .4s;
+}
+
+#principal .cuerpo .bigote{
+    position: absolute;
+    top: 432px;
+    right: 255px;
+    z-index: 1;
+    transition: .4s;
+}
+
+#principal .cuerpo .zapato-izq{
+    position: absolute;
+    top: 525px;
+    left: 200px;
+    z-index: -2;
+    transition: .4s;
+}
+
+#principal .cuerpo .zapato-der{
+    position: absolute;
+    top: 525px;
+    right: 200px;
+    z-index: -2;
+    transition: .4s;
+}
+
+body h2{
+    text-align: center;
+    transition: .6s;
+}
+
+body h2:hover{
+
+background: -webkit-linear-gradient(to right, #FFD426 0%, #FF00F7 50%, #08FFF7 100%);
+background: -moz-linear-gradient(to right, #FFD426 0%, #FF00F7 50%, #08FFF7 100%);
+background: linear-gradient(to right, #FFD426 0%, #FF00F7 50%, #08FFF7 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;;
+}
